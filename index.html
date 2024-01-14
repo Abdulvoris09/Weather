@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div id="header" class="bg-dark-blue">
+        <!-- Header -->
+        <header class="pt-8">
+            <!-- header-container -->
+            <div class="w-full max-w-7xl px-5 mx-auto">
+                <div class="flex flex-wrap justify-center sm:justify-between items-center gap-5">
+
+                    <form id="form" class="flex sm:ml-[200px] justify-center space-x-3 sm:justify-end">
+                        <input id="city-input" class="py-2 text-blue-600 px-5 rounded-3xl w-full sm:w-[700px] focus:outline-none"
+                            type="search" name="city" id="city" placeholder="Enter City...">
+                        <button type="submit"
+                            class="p-3 flex justify-center items-center rounded-2xl bg-white">
+                            <img class="w-6 h-6" src="./img/search.png" alt="search">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- Main -->
+    <main class="text-black py-8 md:py-16">
+        <!-- Weather info -->
+        <section class="w-full max-w-4xl px-5 mx-auto">
+            <div id="weather-info">
+                <h1 class="text-center text-white sm:text-[50px] text-[30px] sm:mt-[30px]">Shahar nomini kiriting</h1>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

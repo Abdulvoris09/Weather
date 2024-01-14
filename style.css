@@ -1,0 +1,18 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/162148736760a5ef070dd930.39117002.jpg.crdownload);
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+}
+#wt {
+  backdrop-filter: blur(25px);
+  width: 100%;
+}
+#weather-info{
+  align-items: center;
+  justify-content: center;
+}
